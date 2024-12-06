@@ -18,33 +18,33 @@ This project is the coursework for the Database Course Design in the second seme
 
 ### (I) Book Management
 
-\- **Accurate Input and Modification**: Carefully enter key information such as book names, authors, publishers, publication years, ISBNs, and inventories to ensure the integrity and accuracy of book data. Meanwhile, book details can be flexibly modified to update the book status and information in real time.
+- **Accurate Input and Modification**: Carefully enter key information such as book names, authors, publishers, publication years, ISBNs, and inventories to ensure the integrity and accuracy of book data. Meanwhile, book details can be flexibly modified to update the book status and information in real time.
 
-\- **Intelligent Retrieval and Filtering**: Quickly retrieve books based on multiple dimensions such as book titles, authors, and ISBNs, and support precise filtering by categories and publication year ranges, helping administrators quickly locate target books.
+- **Intelligent Retrieval and Filtering**: Quickly retrieve books based on multiple dimensions such as book titles, authors, and ISBNs, and support precise filtering by categories and publication year ranges, helping administrators quickly locate target books.
 
  
 
 ### (II) Reader Management
 
-\- **Information Registration and Maintenance**: Comprehensively register basic information of readers, including names, genders, ages, contact information, and library card numbers, facilitating the update of reader information to ensure the timeliness and accuracy of data.
+- **Information Registration and Maintenance**: Comprehensively register basic information of readers, including names, genders, ages, contact information, and library card numbers, facilitating the update of reader information to ensure the timeliness and accuracy of data.
 
-\- **Borrowing History Tracking**: Clearly record the historical records of readers borrowing books, including book names, borrowing dates, return dates, and overdue situations, providing strong data support for borrowing management and reader services.
+- **Borrowing History Tracking**: Clearly record the historical records of readers borrowing books, including book names, borrowing dates, return dates, and overdue situations, providing strong data support for borrowing management and reader services.
 
  
 
 ### (III) Optimization of the Borrowing and Returning Process
 
-\- **Convenient Borrowing Operations**: Administrators can quickly handle book borrowing based on readers' library card numbers and book ISBNs, automatically update the book inventory and readers' borrowing status, and record the borrowing date in real time to start a seamless borrowing process.
+- **Convenient Borrowing Operations**: Administrators can quickly handle book borrowing based on readers' library card numbers and book ISBNs, automatically update the book inventory and readers' borrowing status, and record the borrowing date in real time to start a seamless borrowing process.
 
-\- **Intelligent Return Processing**: When returning books, the system accurately checks the book information based on the ISBN, automatically checks the overdue status and calculates fines (if any), and updates the book inventory and readers' borrowing records according to the actual situation to ensure efficient and transparent book circulation.
+- **Intelligent Return Processing**: When returning books, the system accurately checks the book information based on the ISBN, automatically checks the overdue status and calculates fines (if any), and updates the book inventory and readers' borrowing records according to the actual situation to ensure efficient and transparent book circulation.
 
  
 
 ### (IV) Inventory Monitoring and Warning
 
-\- **Real-time Inventory Insight**: Present the inventory quantity of each book in real time and visually display the dynamic changes of the inventory, providing immediate data support for procurement decisions.
+- **Real-time Inventory Insight**: Present the inventory quantity of each book in real time and visually display the dynamic changes of the inventory, providing immediate data support for procurement decisions.
 
-\- **Intelligent Warning Mechanism**: When the inventory approaches the preset threshold, the system automatically triggers a warning to promptly remind administrators to replenish stocks, avoiding the impact of book shortages on readers' borrowing experiences.
+- **Intelligent Warning Mechanism**: When the inventory approaches the preset threshold, the system automatically triggers a warning to promptly remind administrators to replenish stocks, avoiding the impact of book shortages on readers' borrowing experiences.
 
  
 
@@ -52,43 +52,43 @@ This project is the coursework for the Database Course Design in the second seme
 
 ### (I) Front-end Development
 
-\- **HTML5 + CSS3 Collaborative Layout**: Use HTML5 to build a solid page structure, and CSS3 to carefully design styles, creating a beautiful, comfortable, and user-friendly interface to ensure a consistent browsing experience across platforms.
+- **HTML5 + CSS3 Collaborative Layout**: Use HTML5 to build a solid page structure, and CSS3 to carefully design styles, creating a beautiful, comfortable, and user-friendly interface to ensure a consistent browsing experience across platforms.
 
-\- **JavaScript Interaction Empowerment**: Introduce JavaScript to inject interactive vitality into the page, realizing functions such as form validation, dynamic data loading, and menu interaction, improving the smoothness and convenience of user operations.
+- **JavaScript Interaction Empowerment**: Introduce JavaScript to inject interactive vitality into the page, realizing functions such as form validation, dynamic data loading, and menu interaction, improving the smoothness and convenience of user operations.
 
  
 
 ### (II) Back-end Development
 
-\- **Python as the Core Driver**: Rely on Python's powerful programming capabilities to write efficient business logic code, implement the core functional modules of the system, and ensure the stable and reliable operation and excellent performance of the system.
+- **Python as the Core Driver**: Rely on Python's powerful programming capabilities to write efficient business logic code, implement the core functional modules of the system, and ensure the stable and reliable operation and excellent performance of the system.
 
-\- **SQL Database Interaction**: Interact closely with the database by using SQL statements, carefully design multiple table structures such as book tables, reader tables, and borrowing record tables, and realize efficient data access and management through complex query, update, and insert operations.
+- **SQL Database Interaction**: Interact closely with the database by using SQL statements, carefully design multiple table structures such as book tables, reader tables, and borrowing record tables, and realize efficient data access and management through complex query, update, and insert operations.
 
  
 
 ### (III) Database Selection
 
-\- **MySQL for Robust Support**: Choose the MySQL database, relying on its mature stability, high concurrent processing ability, and rich functional features to provide a solid underlying architecture for the system's massive data storage, rapid retrieval, and complex association queries.
+- **MySQL for Robust Support**: Choose the MySQL database, relying on its mature stability, high concurrent processing ability, and rich functional features to provide a solid underlying architecture for the system's massive data storage, rapid retrieval, and complex association queries.
 
  
 
 ## IV. File Structure Description
 
-\- **`.idea`**: A directory dedicated to the configuration files of the integrated development environment (IDE), storing project-specific settings and metadata to help accurately configure the development environment.
+- **`.idea`**: A directory dedicated to the configuration files of the integrated development environment (IDE), storing project-specific settings and metadata to help accurately configure the development environment.
 
-\- **`__pycache__`**: A folder for caching Python bytecode, storing bytecode files generated by compilation to optimize the efficiency of code reloading and improve the system's running performance.
+- **`__pycache__`**: A folder for caching Python bytecode, storing bytecode files generated by compilation to optimize the efficiency of code reloading and improve the system's running performance.
 
-\- **`models`**: The core area for defining data models, encapsulating the database table structures and operation logics, realizing data interaction in an object-oriented programming style, and improving the modularity and maintainability of the code.
+- **`models`**: The core area for defining data models, encapsulating the database table structures and operation logics, realizing data interaction in an object-oriented programming style, and improving the modularity and maintainability of the code.
 
-\- **`static/css`**: A collection place for static resource CSS style sheets, centrally managing page layout and style design files to ensure unified style modification and efficient maintenance.
+- **`static/css`**: A collection place for static resource CSS style sheets, centrally managing page layout and style design files to ensure unified style modification and efficient maintenance.
 
-\- **`templates`**: A repository for storing HTML template files, using template engine technology to achieve dynamic page rendering, separating data and display logic, and enhancing the readability and reusability of the code.
+- **`templates`**: A repository for storing HTML template files, using template engine technology to achieve dynamic page rendering, separating data and display logic, and enhancing the readability and reusability of the code.
 
-\- **`README.md`**: The project documentation that you are currently reading, providing comprehensive guidance and technical explanations for developers and users.
+- **`README.md`**: The project documentation that you are currently reading, providing comprehensive guidance and technical explanations for developers and users.
 
-\- **`app.py`**: The main entry file for the back-end Flask application, coordinating route definition, request processing and distribution, and application startup configuration to build the overall running framework of the system.
+- **`app.py`**: The main entry file for the back-end Flask application, coordinating route definition, request processing and distribution, and application startup configuration to build the overall running framework of the system.
 
-\- **`mysqlUtils.py`**: A module for MySQL database operation tools, encapsulating common functions such as database connection establishment, query execution, and transaction processing, simplifying the writing of database interaction code and improving the reusability and testability of the code.
+- **`mysqlUtils.py`**: A module for MySQL database operation tools, encapsulating common functions such as database connection establishment, query execution, and transaction processing, simplifying the writing of database interaction code and improving the reusability and testability of the code.
 
  
 
@@ -96,9 +96,9 @@ This project is the coursework for the Database Course Design in the second seme
 
 ### (I) Environment Preparation
 
-\- Install the official version of Python 3.6 and ensure that the pip package manager runs normally to lay a solid foundation for installing project dependencies.
+- Install the official version of Python 3.6 and ensure that the pip package manager runs normally to lay a solid foundation for installing project dependencies.
 
-\- Download and install the community version of the MySQL database, complete the basic configuration according to the official documentation, and enable remote access permissions to ensure the stable startup and monitoring of the database service.
+- Download and install the community version of the MySQL database, complete the basic configuration according to the official documentation, and enable remote access permissions to ensure the stable startup and monitoring of the database service.
 
  
 
@@ -144,6 +144,6 @@ This project is released under an open-source license. Under the legal and compl
 
 If you encounter technical difficulties, have functional suggestions, or expect in-depth cooperation and communication during the use or development of the project, please contact the author through the following ways:
 
-\- **GitHub Account**: [ZZY1234321](https://github.com/ZZY1234321)
+- **GitHub Account**: [ZZY1234321](https://github.com/ZZY1234321)
 
-\- **Email**: ZSDZZY2022@163.com
+- **Email**: ZSDZZY2022@163.com
